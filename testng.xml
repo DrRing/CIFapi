@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="D:/0519/CIFapi/pom.xml"><classes/></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="first" enabled="true" >
+        <classes>
+            <class name="APIS.test_CheckLoginServiceApi"/>
+            <class name="APIS.test_CheckSmsApi"/>
+            <class name="APIS.test_GetMembersApi"/>
+            <class name="APIS.test_LoginApi"/>
+            <class name="APIS.test_RegisterApi"/>
+            <class name="APIS.test_SendsmsApi"/>
+
+        </classes>
+    </test>
+</suite>

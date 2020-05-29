@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="258ea18f-ae34-4ae4-ac35-291eaf5c6c95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckLoginServiceApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/Demo/demo111.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/Demo/subDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/common/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckLoginApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckLoginwebApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckSmsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckSmsApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_DemoApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_DemoApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_GetMembersApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_GetMembersApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_SendsmsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_SendsmsApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/common/DataProvider_Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/common/DataProvider_Source.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/common/testcaseLoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/function/OkHttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/function/OkHttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/listeners/AssertListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/listeners/AssertListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/listeners/Assertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/asserts/Assertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/testDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/Demo/testDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/utils/custructProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/utils/custructProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/utils/depencyOn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/utils/depencyOn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/properties/depency.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/properties/depency.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/properties/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/properties/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/java/common/Logger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/java/utils/getJson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="42" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/java/function/OkHttpUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="111" column="70" lean-forward="true" selection-start-line="111" selection-start-column="70" selection-end-line="111" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6248#6249#0" expanded="true" />
+                <element signature="e#6292#6293#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckSmsApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_DemoApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/properties/depency.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="9" selection-start-line="1" selection-end-line="1" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="0527" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/java/DemoRun.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/testdamo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/testDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/utils/operateExcel.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/common/testcaseLoder.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/common/ErrorCode.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/listeners/Assertion.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/listeners/AssertListener.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/listeners/ExtentTestNGIReporterListener.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/utils/getJson.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_LoginApi.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/utils/getProperty.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_LogoutApi.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_UpdateMembersApi.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_ValidatorApi.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_RegisterApi.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/Demo/testDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/Demo/subDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/Demo/demo111.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_GetMembersApi.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckLoginApi.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckSmsApi.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resource/properties/depency.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/utils/depencyOn.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckLoginServiceApi.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/asserts/Assertion.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/common/Logger.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_SendsmsApi.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/common/DataProvider_Source.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/utils/custructProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckLoginwebApi.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resource/properties/test.json" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_DemoApi.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/function/OkHttpUtil.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="227" />
+    <option name="y" value="53" />
+    <option name="width" value="1412" />
+    <option name="height" value="931" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CIFapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIFapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CIFapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIFapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CIFapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIFapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CIFapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIFapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CIFapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIFapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CIFapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIFapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="APIS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CIFapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIFapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="asserts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CIFapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIFapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CIFapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIFapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CIFapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIFapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CIFapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIFapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CIFapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIFapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CIFapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIFapi" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/java/utils" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\0519\CIFapi\src\main\webapp\java\utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.test_DemoApi">
+    <configuration name="javaAll" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="DemoRun" />
+      <module name="CIFapi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_DemoApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="APIS.test_DemoApi" />
+      <module name="CIFapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APIS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testAll" type="TestNG">
+      <module name="CIFapi" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Demo.testDemo" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_CheckLoginServiceApi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CIFapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APIS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APIS" />
+      <option name="MAIN_CLASS_NAME" value="APIS.test_CheckLoginServiceApi" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_CheckLoginServiceApi.testcheckLogin_web_url" type="TestNG" nameIsGenerated="true">
+      <module name="CIFapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APIS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APIS" />
+      <option name="MAIN_CLASS_NAME" value="APIS.test_CheckLoginServiceApi" />
+      <option name="METHOD_NAME" value="testcheckLogin_web_url" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_CheckLoginwebApi.testcheckLogin_web_url" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CIFapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APIS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APIS" />
+      <option name="MAIN_CLASS_NAME" value="APIS.test_CheckLoginwebApi" />
+      <option name="METHOD_NAME" value="testcheckLogin_web_url" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_DemoApi.testSession" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CIFapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APIS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APIS" />
+      <option name="MAIN_CLASS_NAME" value="APIS.test_DemoApi" />
+      <option name="METHOD_NAME" value="testSession" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_DemoApi.testcheckLogin_web_url" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CIFapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APIS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APIS" />
+      <option name="MAIN_CLASS_NAME" value="APIS.test_DemoApi" />
+      <option name="METHOD_NAME" value="testcheckLogin_web_url" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.javaAll" />
+      <item itemvalue="TestNG.testAll" />
+      <item itemvalue="TestNG.test_CheckLoginServiceApi.testcheckLogin_web_url" />
+      <item itemvalue="TestNG.test_CheckLoginServiceApi" />
+      <item itemvalue="TestNG.test_CheckLoginwebApi.testcheckLogin_web_url" />
+      <item itemvalue="TestNG.test_DemoApi.testcheckLogin_web_url" />
+      <item itemvalue="TestNG.test_DemoApi.testSession" />
+      <item itemvalue="Application.test_DemoApi" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test_DemoApi" />
+        <item itemvalue="TestNG.test_DemoApi.testSession" />
+        <item itemvalue="TestNG.test_DemoApi.testcheckLogin_web_url" />
+        <item itemvalue="TestNG.test_CheckLoginServiceApi" />
+        <item itemvalue="TestNG.test_CheckLoginwebApi.testcheckLogin_web_url" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="258ea18f-ae34-4ae4-ac35-291eaf5c6c95" name="Default Changelist" comment="" />
+      <created>1589856493087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589856493087</updated>
+      <workItem from="1589856494297" duration="128000" />
+      <workItem from="1589856650478" duration="217000" />
+      <workItem from="1589856904004" duration="1253000" />
+      <workItem from="1589867014462" duration="3645000" />
+      <workItem from="1589873539678" duration="697000" />
+      <workItem from="1589874264265" duration="3901000" />
+      <workItem from="1589883313354" duration="4176000" />
+      <workItem from="1590371732732" duration="885000" />
+      <workItem from="1590474149504" duration="602000" />
+      <workItem from="1590563221613" duration="5686000" />
+      <workItem from="1590573286391" duration="3013000" />
+      <workItem from="1590628069546" duration="967000" />
+      <workItem from="1590629068801" duration="10320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="test_SendsmsApi_testSend - 2020.05.28 at 10h 30m 24s.xml">
+      <configuration name="test_SendsmsApi.testSend" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="test_SendsmsApi_testSend - 2020.05.28 at 10h 32m 39s.xml">
+      <configuration name="test_SendsmsApi.testSend" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="test_SendsmsApi_testSend - 2020.05.28 at 10h 33m 13s.xml">
+      <configuration name="test_SendsmsApi.testSend" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="test_SendsmsApi_testSend - 2020.05.28 at 10h 33m 38s.xml">
+      <configuration name="test_SendsmsApi.testSend" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="test_CheckLoginwebApi_testcheckLogin_web_url - 2020.05.28 at 17h 30m 46s.xml">
+      <configuration name="test_CheckLoginwebApi.testcheckLogin_web_url" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="test_CheckLoginServiceApi - 2020.05.28 at 17h 31m 52s.xml">
+      <configuration name="test_CheckLoginServiceApi" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="test_DemoApi_testcheckLogin_web_url - 2020.05.28 at 18h 01m 40s.xml">
+      <configuration name="test_DemoApi.testcheckLogin_web_url" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="test_DemoApi_testcheckLogin_web_url - 2020.05.28 at 18h 03m 30s.xml">
+      <configuration name="test_DemoApi.testcheckLogin_web_url" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="test_DemoApi_testcheckLogin_web_url - 2020.05.28 at 18h 04m 08s.xml">
+      <configuration name="test_DemoApi.testcheckLogin_web_url" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="test_DemoApi_testSession - 2020.05.28 at 18h 04m 37s.xml">
+      <configuration name="test_DemoApi.testSession" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35490000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="227" y="53" width="1412" height="931" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20488165" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44110274" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.046365913" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.34711778" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28254437" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26817042" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.046365913" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.34711778" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/target/classes/testDemo.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/testdamo" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/listeners/ExtentTestNGIReporterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/listeners/AssertListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/DemoRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_ValidatorApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_UpdateMembersApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/Demo/demo111.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/common/testcaseLoder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/common/ErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/Demo/subDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/Demo/testDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="40" selection-start-line="9" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/utils/operateExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_GetMembersApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_RegisterApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_LogoutApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_LoginApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/AssertionError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.10/testng-6.9.10-sources.jar!/org/testng/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="93" column="17" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+          <folding>
+            <element signature="e#2638#2639#0" expanded="true" />
+            <element signature="e#2681#2682#0" expanded="true" />
+            <element signature="e#5483#5484#0" expanded="true" />
+            <element signature="e#5529#5530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckLoginServiceApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_SendsmsApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/common/DataProvider_Source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/utils/custructProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/properties/depency.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="9" selection-start-line="1" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/utils/getJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="42" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/asserts/Assertion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/utils/depencyOn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckLoginwebApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/utils/getProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="32" column="79" lean-forward="true" selection-start-line="32" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/common/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/properties/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckSmsApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_DemoApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/function/OkHttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="111" column="70" lean-forward="true" selection-start-line="111" selection-start-column="70" selection-end-line="111" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6248#6249#0" expanded="true" />
+            <element signature="e#6292#6293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

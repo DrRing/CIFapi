@@ -1,4 +1,4 @@
-package listeners;
+package asserts;
 
 import org.testng.Assert;
 import java.util.ArrayList;
@@ -14,6 +14,7 @@ public class Assertion {
 		} catch (Error e) {
 			errors.add(e);
 			flag = false;
+
 		}
 	}
 

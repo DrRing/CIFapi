@@ -3,6 +3,7 @@ package function;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
@@ -143,7 +144,7 @@ public class OkHttpUtil {
 	/**
 	 * 设置Header头
 	 */
-	private static Headers setHeaders(Map<String, Object> headersParams) {
+	public static Headers setHeaders(Map<String, Object> headersParams) {
 		/*
 		 * Map<String,Object> headers = new HashMap<String,Object>();
 		 * headers.put("Content-Type","application/json");
@@ -227,7 +228,6 @@ public class OkHttpUtil {
 	public static String postXml(String url, String body) {
 		return post(url, body, xmlMediaType);
 	}
-
 	/**
 	 *
 	 * @param url
@@ -274,5 +274,39 @@ public class OkHttpUtil {
 		Request request = new Request.Builder().url(url).post(RequestBody.create(jsonMediaType, body)).build();
 		Call call = client.newCall(request);
 		call.enqueue(callback);
+	}
+	public static String GetSession(String path,String  json){
+		OkHttpClient client = new OkHttpClient();
+		client.newBuilder().build();
+		RequestBody body = RequestBody.create(jsonMediaType, json);
+		// 3 创建请求方式
+		Request request = new Request.Builder().url(path).post(body).build();
+
+		try {
+			Response response = client.newCall(request).execute();
+			Headers heads= response.headers();
+			List<String> cookies = heads.values("Set-Cookie");
+
+			String re=client.newCall(request).execute().body().string();
+			System.out.println(re);
+			String sessionpre = cookies.get(0);
+
+
+			String session = sessionpre.substring(0, sessionpre.indexOf(";"));
+			return session;
+
+		} catch (IOException e) {
+			e.printStackTrace();
+			return null;
+
+		}
+	}
+	public static Headers setSession(String session){
+		Headers headers = null;
+		Headers.Builder headerBuilder = new Headers.Builder();
+		headerBuilder.add("Set-Cookie", session);
+		headers = headerBuilder.build();
+		return headers;
+
 	}
 }

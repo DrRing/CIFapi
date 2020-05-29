@@ -17,8 +17,7 @@ import utils.operateExcel;
 
 
 public class DataProvider_Source {
-	@Test
-	@DataProvider(name = "SendSms")
+
 	private Iterator<Object[]> SendSmsProvider() throws IOException {
 		List<Object[]> result = new ArrayList<Object[]>();
 		String sheetname = "test";

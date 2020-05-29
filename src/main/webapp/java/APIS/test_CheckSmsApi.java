@@ -30,13 +30,11 @@ public class test_CheckSmsApi {
 //		return result.iterator();
 		Iterator<Object[]> testIterator=custructProvider.custructProvider(sheetname);
 		return testIterator;
-		
-		
+
 	}
 	@Test(dataProvider = "CheckSmsProvider")
 	public void testCheckSms(Map<String, Object> casedemo) {
 		//System.out.println(111111);
-
 		String url = getProperty.getDepencyProperty("host") + getProperty.getDepencyProperty("checkSms");
 		try {
 			String para_captchString = casedemo.get("depency").toString();
