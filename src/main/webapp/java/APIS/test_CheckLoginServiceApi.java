@@ -18,10 +18,10 @@ public class test_CheckLoginServiceApi {
     @DataProvider
     private Iterator<Object[]> CheckLoginSerProvider() throws IOException {
         String sheetname = "Case_checkLoginService";
-        Iterator<Object[]> testIterator= custructProvider.custructProvider(sheetname);
+        Iterator<Object[]> testIterator = custructProvider.custructProvider(sheetname);
         return testIterator;
-
     }
+
     @Test(dataProvider = "CheckLoginSerProvider")
     public void testcheckLogin_service(Map<String, Object> casedemo) {
         String url = utils.getProperty.getDepencyProperty("host") + utils.getProperty.getDepencyProperty("checkLogin_service_url");
@@ -33,7 +33,6 @@ public class test_CheckLoginServiceApi {
             } else {
                 String login_String = casedemo.get("depency").toString();
                 String loginID = depencyOn.getLoginId(login_String);
-//                System.out.println("1111111");
                 body.put("loginId", loginID);
             }
 

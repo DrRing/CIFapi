@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 import asserts.Assertion;
+import common.Log;
 import function.OkHttpUtil;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
@@ -36,7 +37,6 @@ public class test_SendsmsApi {
 
     @Test(dataProvider = "SendSmsProvider", groups = {"test1", "test2"})
     public void testSend(Map<String, Object> casedemo) {
-        //System.out.println("11111111111");
 
         String url = getProperty.getDepencyProperty("host") + getProperty.getDepencyProperty("captcha_url");
         if (casedemo.get("body") != null && casedemo.get("expected") != null) {
@@ -47,7 +47,8 @@ public class test_SendsmsApi {
             String codeString = jsonObject.getString("code");
             String expected = casedemo.get("expected").toString();
             Assertion.verifyEquals(codeString,expected);
-            if(Assertion.flag==false)   System.out.println(resopseString);
+            if(Assertion.flag==false)
+                Log.info(resopseString);
 
 
         }

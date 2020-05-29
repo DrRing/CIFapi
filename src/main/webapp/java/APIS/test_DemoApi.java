@@ -1,11 +1,7 @@
 package APIS;
 
-import static org.testng.Assert.assertEquals;
-
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 
 import org.springframework.util.Assert;
@@ -16,7 +12,7 @@ import com.alibaba.fastjson.JSONObject;
 
 import function.OkHttpUtil;
 import utils.*;
-import utils.depencyOn;
+
 
 public class test_DemoApi {
     @DataProvider

@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
+import common.Log;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -133,6 +134,19 @@ public class OkHttpUtil {
 		RequestBody body = RequestBody.create(jsonMediaType, json);
 		// 3 创建请求方式
 		Request request = new Request.Builder().url(path).headers(setHeaders(headerParams)).post(body).build();
+		try {
+			return client.newCall(request).execute().body().string();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+	public static String postJsonWithCookie(String path, String json, String cookie) {
+		OkHttpClient client = new OkHttpClient();
+		RequestBody body = RequestBody.create(jsonMediaType, json);
+		// 3 创建请求方式
+		Request request = new Request.Builder().url(path).header("Set-Cookie",cookie).post(body).build();
+		Log.info(cookie);
 		try {
 			return client.newCall(request).execute().body().string();
 		} catch (IOException e) {
@@ -281,19 +295,15 @@ public class OkHttpUtil {
 		RequestBody body = RequestBody.create(jsonMediaType, json);
 		// 3 创建请求方式
 		Request request = new Request.Builder().url(path).post(body).build();
-
 		try {
 			Response response = client.newCall(request).execute();
 			Headers heads= response.headers();
 			List<String> cookies = heads.values("Set-Cookie");
-
-			String re=client.newCall(request).execute().body().string();
-			System.out.println(re);
-			String sessionpre = cookies.get(0);
-
-
-			String session = sessionpre.substring(0, sessionpre.indexOf(";"));
-			return session;
+//切割获取用户的sessionid
+//			String re=client.newCall(request).execute().body().string();
+//			String sessionpre = cookies.get(0);
+//			String session = sessionpre.substring(0, sessionpre.indexOf(";"));
+			return cookies.toString();
 
 		} catch (IOException e) {
 			e.printStackTrace();

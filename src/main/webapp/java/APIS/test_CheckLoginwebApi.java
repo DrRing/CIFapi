@@ -8,7 +8,10 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import org.springframework.util.Assert;
+import common.Log;
+import okhttp3.Headers;
+import okhttp3.Request;
+import okhttp3.RequestBody;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -30,25 +33,26 @@ public class test_CheckLoginwebApi {
 	@Test(dataProvider = "CheckLoginProvider")
 	public void testcheckLogin_web_url(Map<String, Object> casedemo) {
 		String url = utils.getProperty.getDepencyProperty("host") + utils.getProperty.getDepencyProperty("checkLogin_web_url");
+		Map<String, String> body = JSONObject.parseObject(casedemo.get("body").toString(), Map.class);
 		try {
-			StringBuilder session=null;
-			Map<String, String> body = JSONObject.parseObject(casedemo.get("body").toString(), Map.class);
-			if (casedemo.get("depency").equals(null)){
+			if( asserts.Assertion.assertNull(casedemo.get("depency"))){
 				String urlpath = utils.getProperty.getDepencyProperty("host") + utils.getProperty.getDepencyProperty("login_url");
 				String login_String = casedemo.get("depency").toString();
-				String getsession = OkHttpUtil.GetSession(urlpath,login_String);
-				session.append(getsession);
+				//获取cookies
+                String respose1 = OkHttpUtil.postJson(urlpath,login_String);
+                Log.info(respose1);
+				String cookies = OkHttpUtil.GetSession(urlpath,login_String);
+                Log.info(cookies);
+				String param = JSON.toJSONString(body);
+				String response= OkHttpUtil.postJsonWithCookie(url,param,cookies);
+				Log.info(response);
+                JSONObject jsonObject = JSONObject.parseObject(response);
+                String codeString = jsonObject.getString("code");
+                String expected = casedemo.get("expected").toString();
+                assertEquals(codeString, expected);
 			}
-			String param = JSON.toJSONString(body);
-			String resopseString = OkHttpUtil.postJson(url, param);
 
 
-
-			JSONObject jsonObject = JSONObject.parseObject(resopseString);
-			String codeString = jsonObject.getString("code");
-//			System.out.println(codeString);
-			String expected = casedemo.get("expected").toString();
-			assertEquals(codeString, expected);
 		} catch (Exception e) {
 			// TODO: handle exception
 		}

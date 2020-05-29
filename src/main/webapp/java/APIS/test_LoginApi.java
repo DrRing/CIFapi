@@ -1,67 +1,62 @@
 package APIS;
 
+import java.io.IOException;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import asserts.Assertion;
+import common.Log;
 import function.OkHttpUtil;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 
+import utils.custructProvider;
 import utils.getProperty;
 import utils.operateExcel;
 import utils.depencyOn;
 
+import static org.testng.Assert.assertEquals;
+
 public class test_LoginApi {
 
-	@BeforeMethod
-	public void beforeMethod() {
+	@DataProvider
+	private Iterator<Object[]> CheckSmsProvider() throws IOException {
+		String sheetname = "Case_login";
+		Iterator<Object[]> testIterator= custructProvider.custructProvider(sheetname);
+		return testIterator;
 	}
 
-	@Test
-	// @Test(dependsOnGroups = {"getcaptcha"})
-	public void testLogin() {
-		String sheetname = "Case_login";
-		String pathString = "C:\\Users\\Administrator\\Desktop\\0312.xlsx";
-		List<Map<String, Object>> cases_list = operateExcel.excel_re_map(pathString, sheetname);
-		String url = getProperty.getDepencyProperty("testhost") + getProperty.getDepencyProperty("login_url");
+	@Test(dataProvider = "CheckSmsProvider")
+	public void testLogin(Map<String, Object> casedemo) {
 
-		for (int i = 0; i < cases_list.size(); i++) {
-			Map<String, Object> ob = cases_list.get(i);
-			Map<String, String> body = JSONObject.parseObject(ob.get("body").toString(), Map.class);
+		String url = getProperty.getDepencyProperty("host") + getProperty.getDepencyProperty("login_url");
 
-			if (ob.get("depency") != null) {
-				String para_captchString = ob.get("depency").toString();
-				//System.out.println("111");
+		try {
+			Map<String, String> body = JSONObject.parseObject(casedemo.get("body").toString(), Map.class);
 
-				String captchaCode = depencyOn.getSendSms(para_captchString);
-//				System.out.println("222222");
-
-				//System.out.println(captchaCode);
+			if (Assertion.assertNull(casedemo.get("depency"))) {
+				String login_String = casedemo.get("depency").toString();
+				String captchaCode = depencyOn.getSendSms(login_String);
 				body.put("captcha", captchaCode);
-
 			}
 			// 将对象转化为Json字符串
 			String param = JSON.toJSONString(body);
-
 			String resopseString = OkHttpUtil.postJson(url, param);
 			System.out.println(resopseString);
 			JSONObject jsonObject = JSONObject.parseObject(resopseString);
-
 			String codeString = jsonObject.getString("code");
-			String expected = ob.get("expected").toString();
-			// System.out.println(codeString+":"+expected);
-			if (expected.equals(codeString)) {
-				System.out.println(ob.get("subname") + ":" + "用例执行通过");
-				continue;
-			} else {
-				System.out.println(ob.get("subname") + ":" + "用例执行失败");
-
-			}
+			String expected = casedemo.get("expected").toString();
+			assertEquals(codeString, expected);
+		}catch (Exception e){
+			Log.info(e);
 		}
+
 
 	}
 

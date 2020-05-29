@@ -44,15 +44,9 @@ public class test_RegisterApi {
     }
     @DataProvider
     private Iterator<Object[]> RegisterProvider() throws IOException {
-        List<Object[]> result = new ArrayList<Object[]>();
-        String sheetname = "test";
-        String pathString = "C:\\Users\\Administrator\\Desktop\\0514.xlsx";
-        List<Map<String, Object>> cases_list = operateExcel.excel_re_map(pathString, sheetname);
-        Iterator it = cases_list.iterator();
-        while (it.hasNext()) {
-            result.add(new Object[] { it.next() });
-        }
-        return result.iterator();
+        String sheetname = "Case_regist";
+        Iterator<Object[]> testIterator = custructProvider.custructProvider(sheetname);
+        return testIterator;
     }
     @Test(dataProvider = "RegisterProvider")
     public void testRegister(Map<String, Object> casedemo) {
@@ -70,14 +64,12 @@ public class test_RegisterApi {
             String resopseString = OkHttpUtil.postJson(url, param);
             JSONObject jsonObject = JSONObject.parseObject(resopseString);
             String codeString = jsonObject.getString("code");
-
-
             String expected = casedemo.get("expected").toString();
             assertEquals(codeString, expected);
         } catch (Exception e) {
             // TODO: handle exception
         }
-        test_RegisterApi.setName(casedemo);
+//        test_RegisterApi.setName(casedemo);
 
     }
 }

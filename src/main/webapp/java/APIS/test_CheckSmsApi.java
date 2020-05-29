@@ -34,13 +34,10 @@ public class test_CheckSmsApi {
 	}
 	@Test(dataProvider = "CheckSmsProvider")
 	public void testCheckSms(Map<String, Object> casedemo) {
-		//System.out.println(111111);
 		String url = getProperty.getDepencyProperty("host") + getProperty.getDepencyProperty("checkSms");
 		try {
 			String para_captchString = casedemo.get("depency").toString();
-//			System.out.println(para_captchString);
 			String captchaCode = depencyOn.getSendSms(para_captchString);
-//			System.out.println(captchaCode);
 			Map<String, String> body = JSONObject.parseObject(casedemo.get("body").toString(), Map.class);
 			// 插入验证码
 			body.put("captchaCode", captchaCode);
