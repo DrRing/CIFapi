@@ -30,7 +30,6 @@ public class test_SendsmsApi {
     @DataProvider
     private Iterator<Object[]> SendSmsProvider() throws IOException {
         String sheetname = "Case_sendsms";
-        String pathString = "C:\\Users\\Administrator\\Desktop\\0312.xlsx";
         Iterator<Object[]> testIterator= custructProvider.custructProvider(sheetname);
         return testIterator;
     }

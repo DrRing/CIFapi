@@ -20,9 +20,9 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
+import okhttp3.Cookie;
 
 public class OkHttpUtil {
-
 	private static Logger logger = LoggerFactory.getLogger(OkHttpUtil.class);
 	private static final OkHttpClient client = new OkHttpClient();
 
@@ -129,11 +129,12 @@ public class OkHttpUtil {
 	 * connectionTime 设置连接超时时间
 	 * readTime       设置读取超时时间
 	 */
-	public static String postJsonWithHeader(String path, String json, Map<String, Object> headerParams) {
+//	public static String postJsonWithHeader(String path, String json, Map<String, Object> headerParams) {
+	public static String postJsonWithHeader(String path, String json, String session) {
 		OkHttpClient client = new OkHttpClient();
 		RequestBody body = RequestBody.create(jsonMediaType, json);
 		// 3 创建请求方式
-		Request request = new Request.Builder().url(path).headers(setHeaders(headerParams)).post(body).build();
+		Request request = new Request.Builder().url(path).header("Cookie", session).post(body).build();
 		try {
 			return client.newCall(request).execute().body().string();
 		} catch (IOException e) {
@@ -145,8 +146,8 @@ public class OkHttpUtil {
 		OkHttpClient client = new OkHttpClient();
 		RequestBody body = RequestBody.create(jsonMediaType, json);
 		// 3 创建请求方式
-		Request request = new Request.Builder().url(path).header("Set-Cookie",cookie).post(body).build();
-		Log.info(cookie);
+		Request request = new Request.Builder().url(path).headers(setSession(cookie)).post(body).build();
+		//Log.info(cookie);
 		try {
 			return client.newCall(request).execute().body().string();
 		} catch (IOException e) {

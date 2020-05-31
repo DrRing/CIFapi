@@ -21,7 +21,6 @@ public class test_UpdateMembersApi {
         Iterator<Object[]> testIterator = custructProvider.custructProvider(sheetname);
         return testIterator;
     }
-
     @Test(dataProvider = "UpdateUserProvider")
     public void testUpdateUser(Map<String, Object> casedemo) {
         String url = utils.getProperty.getDepencyProperty("host") + utils.getProperty.getDepencyProperty("userupdate_url");
@@ -32,13 +31,13 @@ public class test_UpdateMembersApi {
             JSONObject jsonObject = JSONObject.parseObject(resopseString);
             String codeString = jsonObject.getString("code");
             String expected = casedemo.get("expected").toString();
-            Log.info(resopseString);
+            Log.info("这是返回信息"+resopseString);
             //Assert.assertEquals(expected,codeString);
-            Assertion.verifyEquals(expected,codeString);
+            Assertion.verifyEquals(codeString,expected);
 //            if (Assertion.flag == false)
 //                Log.info(resopseString);
         } catch (Exception e) {
-            Log.info(e);
+            Log.info("好像出了点问题"+e);
         }
     }
 }

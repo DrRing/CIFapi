@@ -178,6 +178,13 @@
       <artifactId>spring-context</artifactId>
       <version>4.1.6.RELEASE</version>
     </dependency>
+
+    <!--报错  org/w3c/dom/ElementTraversal-->
+    <dependency>
+      <groupId>xml-apis</groupId>
+      <artifactId>xml-apis</artifactId>
+      <version>1.4.01</version>
+    </dependency>
   </dependencies>
 
 

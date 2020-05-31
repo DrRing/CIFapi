@@ -33,24 +33,32 @@ public class test_CheckLoginwebApi {
 	@Test(dataProvider = "CheckLoginProvider")
 	public void testcheckLogin_web_url(Map<String, Object> casedemo) {
 		String url = utils.getProperty.getDepencyProperty("host") + utils.getProperty.getDepencyProperty("checkLogin_web_url");
-		Map<String, String> body = JSONObject.parseObject(casedemo.get("body").toString(), Map.class);
+
+		StringBuilder respon=new StringBuilder();
 		try {
-			if( asserts.Assertion.assertNull(casedemo.get("depency"))){
+			Map<String, String> body = JSONObject.parseObject(casedemo.get("body").toString(), Map.class);
+			String param = JSON.toJSONString(body);
+			if( asserts.Assertion.assertNull(casedemo.get("depency"))) {
 				String urlpath = utils.getProperty.getDepencyProperty("host") + utils.getProperty.getDepencyProperty("login_url");
 				String login_String = casedemo.get("depency").toString();
 				//获取cookies
-                String respose1 = OkHttpUtil.postJson(urlpath,login_String);
-                Log.info(respose1);
-				String cookies = OkHttpUtil.GetSession(urlpath,login_String);
-                Log.info(cookies);
-				String param = JSON.toJSONString(body);
-				String response= OkHttpUtil.postJsonWithCookie(url,param,cookies);
-				Log.info(response);
-                JSONObject jsonObject = JSONObject.parseObject(response);
+				//String respose1 = OkHttpUtil.postJson(urlpath, login_String);
+
+				String cookies = OkHttpUtil.GetSession(urlpath, login_String);
+				String Cookie= "Set-Cookie:"+cookies.substring(1,cookies.length()-1);
+				String response1 = OkHttpUtil.postJsonWithCookie(url, param, Cookie);
+                Log.info(Cookie);
+				respon.append(response1);
+			}else {
+				String response2 = OkHttpUtil.postJson(url,param);
+				respon.append(response2);
+			}
+
+                JSONObject jsonObject = JSONObject.parseObject(respon.toString());
                 String codeString = jsonObject.getString("code");
                 String expected = casedemo.get("expected").toString();
                 assertEquals(codeString, expected);
-			}
+
 
 
 		} catch (Exception e) {
