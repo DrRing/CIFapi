@@ -6,11 +6,13 @@ import com.alibaba.fastjson.JSONObject;
 import common.Log;
 import function.OkHttpUtil;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import utils.custructProvider;
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.Map;
+@Listeners({listeners.AssertListener.class})
 
 public class test_LogoutApi {
 

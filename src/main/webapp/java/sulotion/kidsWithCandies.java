@@ -15,7 +15,18 @@ public class kidsWithCandies {
         }return ans;
 
     }
+    public List<Boolean> testkidsWithCandies(int[] candies, int extraCandies) {
+        List<Boolean> res=new ArrayList<>(candies.length);
+        int maxcandies=0;
+        for (int candy:candies){
+            maxcandies=Math.max(maxcandies,candy);
+        }
+        for(int i=0;i<candies.length;i++){
+            res.add(maxcandies-extraCandies>=candies[i]);
+        }return res;
 
+
+    }
 
 
 
