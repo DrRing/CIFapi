@@ -46,6 +46,7 @@ public class test_SendsmsApi {
             String codeString = jsonObject.getString("code");
             String expected = casedemo.get("expected").toString();
             Assertion.verifyEquals(codeString,expected);
+
             if(Assertion.flag==false)
                 Log.info(resopseString);
 

@@ -46,7 +46,7 @@ public class test_CheckLoginwebApi {
 
 				String cookies = OkHttpUtil.GetSession(urlpath, login_String);
 				String Cookie= "Set-Cookie:"+cookies.substring(1,cookies.length()-1);
-				String response1 = OkHttpUtil.postJsonWithCookie(url, param, Cookie);
+				String response1 = OkHttpUtil.postJsonWithHeader(url, param, Cookie);
                 Log.info(Cookie);
 				respon.append(response1);
 			}else {

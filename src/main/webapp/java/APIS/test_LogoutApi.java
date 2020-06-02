@@ -6,7 +6,6 @@ import com.alibaba.fastjson.JSONObject;
 import common.Log;
 import function.OkHttpUtil;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import utils.custructProvider;
 import java.io.IOException;

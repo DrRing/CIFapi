@@ -10,7 +10,7 @@ import java.util.Map;
 public class custructProvider {
 	public static Iterator<Object[]> custructProvider(String sheetname) {
 		List<Object[]> result = new ArrayList<Object[]>();
-		String pathString = "C:\\Users\\Administrator\\Desktop\\0514.xlsx";
+		String pathString = "src/main/webapp/resource/testCase/0514.xlsx";
 		List<Map<String, Object>> cases_list = operateExcel.excel_re_map(pathString, sheetname);
 		//Log.info(cases_list);
 		Iterator it = cases_list.iterator();

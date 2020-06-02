@@ -134,7 +134,7 @@ public class OkHttpUtil {
 		OkHttpClient client = new OkHttpClient();
 		RequestBody body = RequestBody.create(jsonMediaType, json);
 		// 3 创建请求方式
-		Request request = new Request.Builder().url(path).header("Cookie", session).post(body).build();
+		Request request = new Request.Builder().url(path).header("Set-Cookie", session).post(body).build();
 		try {
 			return client.newCall(request).execute().body().string();
 		} catch (IOException e) {
@@ -298,6 +298,7 @@ public class OkHttpUtil {
 		Request request = new Request.Builder().url(path).post(body).build();
 		try {
 			Response response = client.newCall(request).execute();
+			//Log.info(response);
 			Headers heads= response.headers();
 			List<String> cookies = heads.values("Set-Cookie");
 //切割获取用户的sessionid
