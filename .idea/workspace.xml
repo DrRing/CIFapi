@@ -2,35 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258ea18f-ae34-4ae4-ac35-291eaf5c6c95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/asserts/AssertSQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/MaxArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/arrangeCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/climbStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/findDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/intersection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/lengthOfLastWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/lengthOfLongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/removeDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/reverseChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/rob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/subArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/longestCommonPrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckLoginwebApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckLoginwebApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_LogoutApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_LogoutApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_SendsmsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_SendsmsApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_UpdateMembersApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_UpdateMembersApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/DemoRun.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/asserts/Assertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/asserts/Assertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/common/LoggerUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/function/OkHttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/function/OkHttpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/utils/custructProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/utils/custructProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/utils/operateExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/utils/operateExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/sulotion/lengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/lengthOfLongestSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/APIS/test_CheckLoginServiceApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APIS/test_CheckLoginServiceApi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/APIS/test_CheckLoginwebApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APIS/test_CheckLoginwebApi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/APIS/test_CheckSmsApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APIS/test_CheckSmsApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/APIS/test_DemoApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APIS/test_DemoApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/APIS/test_DemoApi.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/APIS/test_GetMembersApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APIS/test_GetMembersApi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/APIS/test_LoginApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APIS/test_LoginApi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/APIS/test_LogoutApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APIS/test_LogoutApi.class" afterDir="false" />
@@ -38,7 +17,7 @@
       <change beforePath="$PROJECT_DIR$/target/classes/APIS/test_SendsmsApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APIS/test_SendsmsApi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/APIS/test_UpdateMembersApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APIS/test_UpdateMembersApi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Demo/demo111.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Demo/demo111.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DemoRun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Demo/testDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Demo/testDemo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/asserts/Assertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/asserts/Assertion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/common/DataProvider_Source.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/DataProvider_Source.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/function/OkHttpUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/function/OkHttpUtil$1.class" afterDir="false" />
@@ -50,6 +29,7 @@
       <change beforePath="$PROJECT_DIR$/target/classes/utils/getJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/getJson.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/utils/getProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/getProperty.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/utils/operateExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/operateExcel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,28 +45,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/properties/depency.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/java/sulotion/longestCommonPrefix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="10" selection-start-line="8" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="475">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckLoginwebApi.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_ValidatorApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/java/function/OkHttpUtil.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_UpdateMembersApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-160">
-              <caret line="111" column="55" lean-forward="true" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
+            <state relative-caret-position="398">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,10 +75,71 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_SendsmsApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_RegisterApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_LogoutApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+            <state relative-caret-position="198">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-output/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_LoginApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/java/listeners/AssertListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/java/asserts/Assertion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,6 +160,7 @@
     <findStrings>
       <find>xml-apis</find>
       <find>c</find>
+      <find>MAVEN</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,19 +187,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/java/common/ErrorCode.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/java/listeners/Assertion.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/java/listeners/AssertListener.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/listeners/ExtentTestNGIReporterListener.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/utils/getJson.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/utils/getProperty.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_ValidatorApi.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/java/Demo/testDemo.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/Demo/subDemo.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/Demo/demo111.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_GetMembersApi.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckLoginApi.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/utils/depencyOn.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/common/DataProvider_Source.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resource/properties/test.json" />
@@ -172,21 +209,15 @@
         <option value="$PROJECT_DIR$/src/main/webapp/java/common/LoggerUtils.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/function/MyCookieJarImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckSmsApi.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_LoginApi.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckLoginServiceApi.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_RegisterApi.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/sulotion/rob.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_SendsmsApi.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/utils/operateExcel.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/java/asserts/Assertion.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/java/utils/custructProvider.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resource/properties/depency.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/sulotion/removeDuplicates.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/java/sulotion/lengthOfLongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/sulotion/intersection.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_UpdateMembersApi.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_LogoutApi.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/sulotion/subArray.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/sulotion/arrangeCoins.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/sulotion/climbStairs.java" />
@@ -196,6 +227,17 @@
         <option value="$PROJECT_DIR$/src/main/webapp/java/sulotion/findDuplicate.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckLoginwebApi.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/function/OkHttpUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/sulotion/lengthOfLongestSubstring.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/asserts/AssertSQL.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/utils/custructProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/common/ExceptionUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_LogoutApi.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/asserts/Assertion.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_SendsmsApi.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/Demo/testDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_LoginApi.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/sulotion/longestCommonPrefix.java" />
       </list>
     </option>
   </component>
@@ -206,11 +248,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1386" />
-    <option name="height" value="785" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="249" />
+    <option name="y" value="187" />
+    <option name="width" value="1670" />
+    <option name="height" value="961" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -218,7 +260,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,35 +309,37 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="listeners" type="462c0819:PsiDirectoryNode" />
+              <item name="sulotion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/java/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/resource/testCase" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\0519\CIFapi\src\main\webapp\resource\testCase" />
+      <recent name="D:\0519\CIFapi\src\main\webapp\java\utils" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\0519\CIFapi\src\main\webapp\resource" />
       <recent name="D:\0519\CIFapi\src" />
       <recent name="D:\0519\CIFapi" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\0519\CIFapi\src\main\webapp\java\utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -311,9 +354,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.test_CheckLoginwebApi.testcheckLogin_web_url">
-    <configuration name="findDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sulotion.findDuplicate" />
+  <component name="RunManager" selected="Application.longestCommonPrefix">
+    <configuration name="javaAll" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="DemoRun" />
+      <module name="CIFapi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="longestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sulotion.longestCommonPrefix" />
       <module name="CIFapi" />
       <extension name="coverage">
         <pattern>
@@ -325,9 +375,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaAll" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="DemoRun" />
+    <configuration name="D:/0519/CIFapi/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CIFapi" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -369,7 +422,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_CheckLoginwebApi.testcheckLogin_web_url (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="test_LoginApi.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CIFapi" />
       <extension name="coverage">
         <pattern>
@@ -378,8 +431,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="APIS" />
-      <option name="MAIN_CLASS_NAME" value="APIS.test_CheckLoginwebApi" />
-      <option name="METHOD_NAME" value="testcheckLogin_web_url" />
+      <option name="MAIN_CLASS_NAME" value="APIS.test_LoginApi" />
+      <option name="METHOD_NAME" value="testLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -387,7 +440,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_CheckLoginwebApi.testcheckLogin_web_url" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="test_LogoutApi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CIFapi" />
       <extension name="coverage">
         <pattern>
@@ -396,9 +449,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="APIS" />
-      <option name="MAIN_CLASS_NAME" value="APIS.test_CheckLoginwebApi" />
-      <option name="METHOD_NAME" value="testcheckLogin_web_url" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="APIS.test_LogoutApi" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -423,41 +475,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_UpdateMembersApi.testUpdateUser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CIFapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="APIS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="APIS" />
-      <option name="MAIN_CLASS_NAME" value="APIS.test_UpdateMembersApi" />
-      <option name="METHOD_NAME" value="testUpdateUser" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.javaAll" />
+      <item itemvalue="Application.longestCommonPrefix" />
       <item itemvalue="TestNG.testAll" />
       <item itemvalue="TestNG.test_CheckLoginServiceApi.testcheckLogin_web_url" />
+      <item itemvalue="TestNG.D:/0519/CIFapi/testng.xml" />
+      <item itemvalue="TestNG.test_LogoutApi" />
       <item itemvalue="TestNG.test_SendsmsApi.testSend" />
-      <item itemvalue="TestNG.test_UpdateMembersApi.testUpdateUser" />
-      <item itemvalue="TestNG.test_CheckLoginwebApi.testcheckLogin_web_url" />
-      <item itemvalue="Application.findDuplicate" />
-      <item itemvalue="TestNG.test_CheckLoginwebApi.testcheckLogin_web_url (1)" />
+      <item itemvalue="TestNG.test_LoginApi.testLogin" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.test_CheckLoginwebApi.testcheckLogin_web_url" />
-        <item itemvalue="TestNG.test_CheckLoginwebApi.testcheckLogin_web_url (1)" />
-        <item itemvalue="Application.findDuplicate" />
-        <item itemvalue="TestNG.test_UpdateMembersApi.testUpdateUser" />
+        <item itemvalue="Application.longestCommonPrefix" />
+        <item itemvalue="TestNG.D:/0519/CIFapi/testng.xml" />
+        <item itemvalue="TestNG.test_LoginApi.testLogin" />
         <item itemvalue="TestNG.test_SendsmsApi.testSend" />
+        <item itemvalue="TestNG.test_LogoutApi" />
       </list>
     </recent_temporary>
   </component>
@@ -493,49 +527,58 @@
       <workItem from="1590812583844" duration="1291000" />
       <workItem from="1590814026265" duration="8178000" />
       <workItem from="1590844187952" duration="16871000" />
+      <workItem from="1591007357382" duration="9701000" />
+      <workItem from="1591089086328" duration="3651000" />
     </task>
+    <task id="LOCAL-00001" summary="演示1">
+      <created>1591092269397</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591092269398</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_CheckLoginwebApi_testcheckLogin_web_url_(1) - 2020.05.31 at 19h 54m 28s.xml">
-      <configuration name="test_CheckLoginwebApi.testcheckLogin_web_url (1)" configurationId="TestNG" />
+    <history-entry file="test_LoginApi_testLogin - 2020.06.02 at 10h 39m 57s.xml">
+      <configuration name="test_LoginApi.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test_CheckLoginwebApi_testcheckLogin_web_url_(1) - 2020.05.31 at 20h 09m 39s.xml">
-      <configuration name="test_CheckLoginwebApi.testcheckLogin_web_url (1)" configurationId="TestNG" />
+    <history-entry file="D__0519_CIFapi_testng_xml - 2020.06.02 at 10h 40m 31s.xml">
+      <configuration name="D:/0519/CIFapi/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test_CheckLoginwebApi_testcheckLogin_web_url_(1) - 2020.05.31 at 20h 22m 16s.xml">
-      <configuration name="test_CheckLoginwebApi.testcheckLogin_web_url (1)" configurationId="TestNG" />
+    <history-entry file="testAll - 2020.06.02 at 10h 45m 57s.xml">
+      <configuration name="testAll" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test_CheckLoginwebApi_testcheckLogin_web_url_(1) - 2020.05.31 at 20h 22m 39s.xml">
-      <configuration name="test_CheckLoginwebApi.testcheckLogin_web_url (1)" configurationId="TestNG" />
+    <history-entry file="test_LoginApi_testLogin - 2020.06.02 at 10h 46m 43s.xml">
+      <configuration name="test_LoginApi.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test_CheckLoginwebApi_testcheckLogin_web_url - 2020.05.31 at 20h 26m 32s.xml">
-      <configuration name="test_CheckLoginwebApi.testcheckLogin_web_url" configurationId="TestNG" />
+    <history-entry file="test_LoginApi_testLogin - 2020.06.02 at 10h 47m 13s.xml">
+      <configuration name="test_LoginApi.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test_CheckLoginwebApi_testcheckLogin_web_url - 2020.05.31 at 20h 27m 19s.xml">
-      <configuration name="test_CheckLoginwebApi.testcheckLogin_web_url" configurationId="TestNG" />
+    <history-entry file="test_LoginApi_testLogin - 2020.06.02 at 10h 48m 33s.xml">
+      <configuration name="test_LoginApi.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test_CheckLoginwebApi_testcheckLogin_web_url - 2020.05.31 at 20h 28m 34s.xml">
-      <configuration name="test_CheckLoginwebApi.testcheckLogin_web_url" configurationId="TestNG" />
+    <history-entry file="test_LoginApi_testLogin - 2020.06.02 at 10h 49m 01s.xml">
+      <configuration name="test_LoginApi.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test_CheckLoginwebApi_testcheckLogin_web_url - 2020.05.31 at 20h 36m 41s.xml">
-      <configuration name="test_CheckLoginwebApi.testcheckLogin_web_url" configurationId="TestNG" />
+    <history-entry file="D__0519_CIFapi_testng_xml - 2020.06.02 at 10h 50m 46s.xml">
+      <configuration name="D:/0519/CIFapi/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test_CheckLoginwebApi_testcheckLogin_web_url - 2020.05.31 at 20h 37m 02s.xml">
-      <configuration name="test_CheckLoginwebApi.testcheckLogin_web_url" configurationId="TestNG" />
+    <history-entry file="D__0519_CIFapi_testng_xml - 2020.06.02 at 10h 58m 18s.xml">
+      <configuration name="D:/0519/CIFapi/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test_CheckLoginwebApi_testcheckLogin_web_url - 2020.05.31 at 20h 37m 26s.xml">
-      <configuration name="test_CheckLoginwebApi.testcheckLogin_web_url" configurationId="TestNG" />
+    <history-entry file="D__0519_CIFapi_testng_xml - 2020.06.02 at 15h 21m 28s.xml">
+      <configuration name="D:/0519/CIFapi/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85680000" />
+    <option name="totallyTimeSpent" value="104970000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-48" y="50" width="1386" height="785" extended-state="0" />
-    <editor active="true" />
+    <frame x="81" y="333" width="1670" height="961" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2503771" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18571429" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -545,13 +588,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21319018" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25120774" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.046365913" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32581455" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -606,43 +649,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="演示1" />
+    <option name="LAST_COMMIT_MESSAGE" value="演示1" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/utils/getJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="42" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/properties/login.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/properties/log4j备注.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/properties/captcha.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/properties/mysql.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/properties/environment.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Map.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/common/LoggerUtils.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10-sources.jar!/org/apache/http/util/Asserts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -653,46 +664,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/java/function/MyCookieJarImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/java/common/Log.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckLoginServiceApi.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.10/testng-6.9.10-sources.jar!/org/testng/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="85" column="13" lean-forward="true" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-          <folding>
-            <element signature="e#2638#2639#0" expanded="true" />
-            <element signature="e#2681#2682#0" expanded="true" />
-            <element signature="e#5483#5484#0" expanded="true" />
-            <element signature="e#5529#5530#0" expanded="true" />
-            <element signature="e#6183#6184#0" expanded="true" />
-            <element signature="e#6229#6230#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/java/sulotion/rob.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/Demo/subDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/Demo/demo111.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -706,93 +681,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/Demo/testDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="178" column="38" lean-forward="true" selection-start-line="178" selection-start-column="38" selection-end-line="178" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_SendsmsApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="46" column="66" lean-forward="true" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/java/utils/operateExcel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/asserts/Assertion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/utils/custructProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="e#279#289#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_LoginApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="44" column="72" selection-start-line="44" selection-start-column="72" selection-end-line="44" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_RegisterApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="71" column="45" lean-forward="true" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_GetMembersApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_DemoApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -809,34 +701,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/asserts/AssertSQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_UpdateMembersApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="29" column="54" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/java/sulotion/removeDuplicates.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/sulotion/lengthOfLongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="33" selection-end-column="9" />
-          <folding>
-            <element signature="e#228#248#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -884,13 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/properties/depency.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="10" selection-start-line="8" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/java/sulotion/reverseChar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
@@ -915,62 +776,252 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/DemoRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_LogoutApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2287">
-          <caret line="5397" column="30" selection-start-line="5397" selection-start-column="30" selection-end-line="5397" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/squareup/okhttp3/okhttp/3.4.1/okhttp-3.4.1.jar!/okhttp3/Headers.class">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/DemoRun.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Collections.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.4.1/okhttp-3.4.1.jar!/okhttp3/Headers.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="228" lean-forward="true" selection-start-line="228" selection-end-line="228" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/squareup/okhttp3/okhttp/3.4.1/okhttp-3.4.1.jar!/okhttp3/Request.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.4.1/okhttp-3.4.1.jar!/okhttp3/Request.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-533">
           <caret line="148" column="31" selection-start-line="148" selection-start-column="31" selection-end-line="148" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckLoginwebApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/squareup/okhttp3/okhttp/3.4.1/okhttp-3.4.1.jar!/okhttp3/Cookie.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.4.1/okhttp-3.4.1.jar!/okhttp3/Cookie.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-548">
           <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CIFapi.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/properties/depency.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckLoginwebApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="44" column="79" lean-forward="true" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/asserts/AssertSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/sulotion/lengthOfLongestSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="e#228#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/java/function/OkHttpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="111" column="55" lean-forward="true" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
+        <state relative-caret-position="225">
+          <caret line="136" column="76" selection-start-line="136" selection-start-column="76" selection-end-line="136" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/common/ExceptionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/Demo/demo111.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/Demo/subDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_DemoApi.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_GetMembersApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/utils/custructProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#279#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.10/testng-6.9.10-sources.jar!/org/testng/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="198" column="21" selection-start-line="198" selection-start-column="21" selection-end-line="198" selection-end-column="21" />
+          <folding>
+            <element signature="e#2638#2639#0" expanded="true" />
+            <element signature="e#2681#2682#0" expanded="true" />
+            <element signature="e#5483#5484#0" expanded="true" />
+            <element signature="e#5529#5530#0" expanded="true" />
+            <element signature="e#6183#6184#0" expanded="true" />
+            <element signature="e#6229#6230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/Demo/testDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/utils/getProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="32" column="77" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/listeners/ExtentTestNGIReporterListener1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/listeners/ExtentTestNGIReporterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/listeners/AssertListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/asserts/Assertion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/sulotion/longestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_ValidatorApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_UpdateMembersApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_SendsmsApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_RegisterApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_LogoutApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/APIS/test_LoginApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1016,7 +1067,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

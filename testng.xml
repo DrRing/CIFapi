@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="first" enabled="true" >
-        <classes>
-            <class name="APIS.test_CheckLoginServiceApi"/>
-            <class name="APIS.test_CheckSmsApi"/>
-            <class name="APIS.test_GetMembersApi"/>
-            <class name="APIS.test_LoginApi"/>
-            <class name="APIS.test_RegisterApi"/>
-            <class name="APIS.test_SendsmsApi"/>
+    <test verbose="2" preserve-order="true" name="演示Demo" enabled="true" >
+<!--        <classes>-->
+<!--            <class name="APIS.test_CheckLoginServiceApi"/>-->
+<!--            <class name="APIS.test_CheckSmsApi"/>-->
+<!--            <class name="APIS.test_GetMembersApi"/>-->
+<!--            <class name="APIS.test_RegisterApi"/>-->
+<!--            <class name="APIS.test_SendsmsApi"/>-->
+<!--            <class name="APIS.test_LoginApi"/>-->
 
-        </classes>
+<!--        </classes>-->
+        <packages>
+            <package name="APIS" />
+        </packages>
     </test>
+    <listeners>
+        <listener class-name="listeners.AssertListener"></listener>
+        <listener class-name="listeners.ExtentTestNGIReporterListener"></listener>
+    </listeners>
 </suite>
