@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258ea18f-ae34-4ae4-ac35-291eaf5c6c95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/findLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/minSubArrayLen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/maxSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_LogoutApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/APIS/test_LogoutApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/Demo/testDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/Demo/testDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/sulotion/climbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/climbStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/sulotion/kidsWithCandies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/kidsWithCandies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/APIS/test_CheckLoginwebApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APIS/test_CheckLoginwebApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/APIS/test_LoginApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APIS/test_LoginApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/APIS/test_LogoutApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APIS/test_LogoutApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Demo/testDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Demo/testDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/asserts/Assertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/asserts/Assertion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/function/OkHttpUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/function/OkHttpUtil$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/function/OkHttpUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/function/OkHttpUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/custructProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/custructProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/sulotion/findLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/sulotion/findLength.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,11 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/java/sulotion/findLength.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="360">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/java/sulotion/maxSubArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -108,8 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_ValidatorApi.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/java/Demo/subDemo.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/Demo/demo111.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_GetMembersApi.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/test_CheckLoginApi.java" />
@@ -159,6 +153,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/java/sulotion/kidsWithCandies.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/sulotion/minSubArrayLen.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/java/APIS/longestCommonPrefix.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/sulotion/findLength.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/java/sulotion/maxSubArray.java" />
       </list>
     </option>
   </component>
@@ -170,8 +166,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-52" />
-    <option name="y" value="-14" />
+    <option name="x" value="-50" />
+    <option name="y" value="133" />
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
@@ -253,14 +249,14 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\0519\CIFapi\src\main\webapp\resource\testCase" />
-      <recent name="D:\0519\CIFapi\src\main\webapp\java\utils" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\0519\CIFapi\src\main\webapp\resource" />
       <recent name="D:\0519\CIFapi\src" />
       <recent name="D:\0519\CIFapi" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\0519\CIFapi\src\main\webapp\resource\testCase" />
+      <recent name="D:\0519\CIFapi\src\main\webapp\java\utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -458,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591092269398</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="算法">
+      <created>1591109499408</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591109499408</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -494,10 +497,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114914000" />
+    <option name="totallyTimeSpent" value="117694000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-52" y="-14" width="1386" height="788" extended-state="0" />
+    <frame x="-15" y="50" width="1386" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25791857" />
@@ -573,16 +576,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="演示1" />
-    <option name="LAST_COMMIT_MESSAGE" value="演示1" />
+    <MESSAGE value="算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/sulotion/rob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/java/Demo/logdemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -960,8 +957,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/java/sulotion/findLength.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="360">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/java/sulotion/maxSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
